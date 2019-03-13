@@ -27,5 +27,8 @@ class Book
   def turn_page
     puts "Flipping the page...wow, you read fast!" 
   end 
+  
+  book = Book.new("The Mysterious Island")
+  book.turn_page 
 end 
 
